@@ -32,7 +32,7 @@
     "xor-crypt": "^1.0.0"
   },
   "dependencies": {
-    "kalastatic-twig-filters": "0.1.4",
+    "kalastatic-twig-filters": "0.1.5",
     "twig": "^0.9.5"
   }
 }
