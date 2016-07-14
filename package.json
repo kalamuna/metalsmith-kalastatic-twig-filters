@@ -1,0 +1,38 @@
+{
+  "name": "metalsmith-kalastatic-twig-filters",
+  "version": "0.1.0",
+  "description": "Metalsmith plugin leveraging the kalastatic twig filters.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalamuna/metalsmith-kalastatic-twig-filters.git"
+  },
+  "keywords": [
+    "Metalsmith",
+    "Kalastatic",
+    "Prototyping",
+    "Twig"
+  ],
+  "author": "Thiago de Mello Bueno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalamuna/metalsmith-kalastatic-twig-filters/issues"
+  },
+  "homepage": "https://github.com/kalamuna/metalsmith-kalastatic-twig-filters#readme",
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^2.1.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-twig": "https://github.com/thiagodemellobueno/metalsmith-twig",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.3",
+    "xor-crypt": "^1.0.0"
+  },
+  "dependencies": {
+    "kalastatic-twig-filters": "0.1.4",
+    "twig": "^0.9.5"
+  }
+}
